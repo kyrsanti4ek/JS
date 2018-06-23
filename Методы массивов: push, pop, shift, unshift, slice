@@ -32,6 +32,12 @@ let a = [2,7];
 let [b,c] = a;
 console.log(b,c);     // 2,7
 
+мин/мак значение в массиве: 
+console.log(Math.min.apply(null, tempC)); // tempC-массив
+
+let temp = [[1,2,3],[4,5,6],[7,8,9]]; //2d array
+
+
 
 
 
