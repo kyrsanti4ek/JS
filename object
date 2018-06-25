@@ -49,11 +49,11 @@
 		secondName: 'Kukhar',
 		age: 28,
 	
+	
+	// вложенный обьект							// второй способ
 
-	// вложенный обьект
-
-	occupation:{
-		company:'Right&Above',
-		position: 'junior Android/JS developer'
+	occupation:{								human.occupation = new Object();
+		company:'Right&Above',						human.occupation.company = 'Right&Above';
+		position: 'junior Android/JS developer'				human.occupation.position = 'Android/JS developer';
 	}
 	};
