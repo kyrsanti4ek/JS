@@ -55,5 +55,19 @@
 	occupation:{								human.occupation = new Object();
 		company:'Right&Above',						human.occupation.company = 'Right&Above';
 		position: 'junior Android/JS developer'				human.occupation.position = 'Android/JS developer';
-	}
+	}									
 	};
+	
+	
+	// третий способ
+	
+	occupation:{								
+		company:'Right&Above',						
+		position: 'junior Android/JS developer'	,			
+		
+		show: function(){
+		document.write(company);
+		document.write(position);
+		}
+	}
+	
