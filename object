@@ -1,1 +1,41 @@
+ <script type="text/javascript">
 
+    // создание обьект через блок инициализации
+    var instance = {propertyA: 222, propertyB: 333};
+
+    // вывод  значение свойств
+    document.write("<p>instance.propertyA = " + instance.propertyA);
+    document.write("<p>instance.propertyB = " + instance.propertyB);
+    document.write("<hr/>");
+
+    // присвоение новых значений
+    instance.propertyA = 'aaa';
+    document.write("<p>instance.propertyA = " + instance.propertyA);
+
+
+    </script>
+    
+  =========================== ВТОРОЙ СПОСОБ ===================================
+  
+  
+        <script type="text/javascript">
+
+    // создание обьект
+
+	var point = new Object();
+	point.x = 19;				          //свойство
+	point.y = 33;
+	
+	point.f = function () {			//поведение
+	document.write(point.x + point.y);	
+}
+
+	
+	point.f();
+	document.write("<hr/>");
+	document.write('x =' + point.x);	//отображаем
+	document.write("<hr/>");
+	document.write('y =' + point.y);
+
+
+    </script>
