@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            For in - construction
+        </title>
+
+        <script type="text/javascript">
+            var house = {
+
+                roof: "roof <br/>",
+                second_floar: "secont_floar <br/>",
+                first_floar: "first_floar <br/>",
+                footer: "footer"
+            }
+
+
+            for (property in house){
+
+                document.write(house[property]);
+                //document.write(" ");
+            }
+
+
+        
+        </script>
+    </head>
+</html>
