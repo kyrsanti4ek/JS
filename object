@@ -39,3 +39,21 @@
 
 
     </script>
+    
+    ================= ВЛОЖЕННЫЙ ОБЬЕКТ =============================
+    
+    // создание обьект
+
+	var human = {
+		name: 'Evhenii',
+		secondName: 'Kukhar',
+		age: 28,
+	
+
+	// вложенный обьект
+
+	occupation:{
+		company:'Right&Above',
+		position: 'junior Android/JS developer'
+	}
+	};
